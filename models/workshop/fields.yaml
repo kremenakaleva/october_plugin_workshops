@@ -15,6 +15,10 @@ fields:
         span: auto
         required: 1
         type: datepicker
+    place:
+        label: Place
+        span: auto
+        type: text
     url:
         label: Link
         span: auto
