@@ -1,0 +1,11 @@
+plugin:
+    name: 'pensoft.workshops::lang.plugin.name'
+    description: 'pensoft.workshops::lang.plugin.description'
+    author: Pensoft
+    icon: oc-icon-ellipsis-h
+    homepage: ''
+navigation:
+    main-menu-item:
+        label: Workshops
+        url: pensoft/workshops/workshops
+        icon: icon-bullhorn

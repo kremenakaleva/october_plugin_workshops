@@ -1,0 +1,10 @@
+name: Workshops
+form: $/pensoft/workshops/models/workshop/fields.yaml
+modelClass: Pensoft\Workshops\Models\Workshop
+defaultRedirect: pensoft/workshops/workshops
+create:
+    redirect: 'pensoft/workshops/workshops/update/:id'
+    redirectClose: pensoft/workshops/workshops
+update:
+    redirect: pensoft/workshops/workshops
+    redirectClose: pensoft/workshops/workshops
